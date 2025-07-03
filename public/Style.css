@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./backgrondImage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
