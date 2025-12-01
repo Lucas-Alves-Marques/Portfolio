@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portifólio - Lucas Alves Marques
 
-## Getting Started
+Bem-vindo ao repositório do meu portifólio pessoal! Este projeto foi desenvolvido para apresentar meus projetos, habilidades e trajetória profissional como Desenvolvedor de Software.
 
-First, run the development server:
+## 👨‍💻 Sobre Mim
+
+Sou **Lucas Alves Marques**, Técnico em Desenvolvimento de Sistemas e atualmente atuo como **Desenvolvedor de Software Júnior**. Meu foco principal é o desenvolvimento **Front-end**, criando interfaces visuais e interativas que proporcionam uma excelente experiência ao usuário. Também possuo conhecimentos em Back-end e Banco de Dados, o que me permite ter uma visão mais completa das aplicações.
+
+> "Ver algo que eu criei ajudando outras pessoas a trabalhar melhor é o que mais me motiva."
+
+## 🚀 Tecnologias Utilizadas
+
+Este projeto foi construído utilizando as seguintes tecnologias modernas:
+
+- **[Next.js 15](https://nextjs.org/)**: Framework React para produção.
+- **[React 19](https://react.dev/)**: Biblioteca JavaScript para construção de interfaces.
+- **[Tailwind CSS 4](https://tailwindcss.com/)**: Framework CSS utility-first para estilização rápida e responsiva.
+- **[JSON Server](https://github.com/typicode/json-server)**: Para simulação de uma API Backend REST.
+- **[React Icons](https://react-icons.github.io/react-icons/)**: Biblioteca de ícones.
+
+## 🛠️ Como Executar o Projeto
+
+Para rodar este projeto localmente em sua máquina, siga os passos abaixo:
+
+### Pré-requisitos
+
+Certifique-se de ter o **Node.js** instalado em sua máquina.
+
+### Instalação
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd portifolio
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+
+### Executando
+
+Este projeto utiliza o `concurrently` para rodar o Frontend (Next.js) e o Backend (JSON Server) simultaneamente com um único comando:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev:all
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Isso iniciará:
+- **Frontend**: http://localhost:3000
+- **Backend (API Mock)**: http://localhost:5000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Caso prefira rodar separadamente:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Apenas o Frontend: `npm run dev`
+- Apenas o Backend: `npm run backend`
 
-## Learn More
+## 📂 Estrutura do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+- `src/app`: Contém as páginas e rotas da aplicação (Next.js App Router).
+- `src/components`: Componentes reutilizáveis (se houver).
+- `src/img`: Imagens utilizadas no projeto.
+- `db.json`: Arquivo de dados utilizado pelo JSON Server.
+- `public`: Arquivos estáticos.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📬 Contato
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Sinta-se à vontade para entrar em contato comigo para oportunidades ou networking!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
