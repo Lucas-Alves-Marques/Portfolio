@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  background-color: black;
+  background-image: url('../img/backgrondImage.jpeg');
+  background-position: fixed;
+  background-size: auto;
+}
+
+.entrada {
+
+  animation: entrada 1s ease-in-out;
+}
+
+.entrada2 {
+
+  animation: entrada2 1s ease-in-out;
+}
+
+.entradaModal {
+
+  animation: entradaModal 1s ease-in-out;
+}
+
+@keyframes entrada {
+
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes entrada2 {
+
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+}
+
+@keyframes entradaModal {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+
+}

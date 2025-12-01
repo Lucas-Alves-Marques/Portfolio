@@ -1,0 +1,14 @@
+{
+    "projetos": [
+        {
+            "id": 1,
+            "title": "Projeto Costs",
+            "date": "17/11/2025",
+            "description": "O sistema Costs foi desenvolvido durante os meus primeiros estudos com a ferramenta do React js, onde o intuito era criar um site que ajudasse o gerenciamento dos custos de projetos voltados para a área de tecnologia. Nele utilizei uma dependência do react chamada json-server, e utilizei um json como banco de dados, já que o foco do projeto era o Front-End.",
+            "repository": "https://github.com/Lucas-Alves-Marques/Projeto_Costs",
+            "urlImg": "/img/Projeto Costs/Capa_Projeto.jpg",
+            "urlVideo": "/img/Projeto Costs/Video_Projeto.mp4"
+        }
+    ],
+    "atividades": []
+}
