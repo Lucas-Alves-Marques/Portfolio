@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "backend": "json-server --watch db.json --port 5000",
     "build": "next build --turbopack",
-    "dev:all": "concurrently -n \"Frontend,Backend\" -c \"blue,green\" \"npm run dev\" \"npm run backend\"",
+    "full": "concurrently -n \"Frontend,Backend\" -c \"blue,green\" \"npm run dev\" \"npm run backend\"",
     "start": "next start",
     "lint": "eslint"
   },

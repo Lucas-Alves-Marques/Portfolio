@@ -8,6 +8,15 @@
             "repository": "https://github.com/Lucas-Alves-Marques/Projeto_Costs",
             "urlImg": "/img/Projeto Costs/Capa_Projeto.jpg",
             "urlVideo": "/img/Projeto Costs/Video_Projeto.mp4"
+        },
+        {
+            "id": 2,
+            "title": "Master Code",
+            "date": "18/12/2025",
+            "description": "O sistema Master Code foi um projeto idealizado junto com um Dev que estava iniciando como PJ. Ele tinha o intuito de simular um dashboard dos serviços que seriam oferecidos pela empresa, junto com um pequeno CRUD de cada serviço. Para criar os dashboards dinamicos, utilizei a biblioteca Charts.JS, que da a possibilidade de criar diversos gráficos de acordo com a minha necessidade.",
+            "repository": "https://github.com/Lucas-Alves-Marques/Desafio_MasterCode",
+            "urlImg": "/img/MasterCode/Capa_Projeto.jpg",
+            "urlVideo": "/img/MasterCode/Video_Projeto.mp4"
         }
     ],
     "atividades": []
