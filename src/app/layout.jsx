@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <body className={`${playfair.variable} antialiased flex flex-col justify-between h-screen`}>
 
         <Header />
-        <div className="flex flex-col overflow-auto h-full w-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        <div className="flex flex-col h-full w-full">
 
           <div className="flex m-auto p-8">
             {children}

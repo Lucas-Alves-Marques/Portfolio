@@ -30,8 +30,8 @@ export default function Atividades() {
 
             <h1 className="text-center text-white uppercase w-full font-bold text-4xl">Atividades</h1>
 
-            <div className={`mt-15 ${atividades.length > 3
-                ? 'grid grid-cols-3 gap-y-10 gap-x-20 mx-auto'
+            <div className={`mt-15 ${atividades.length > 2
+                ? 'grid grid-cols-3 gap-y-10 gap-x-20 mx-auto overflow-y-auto max-h-[calc(95vh-19.5rem)] [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]'
                 : 'flex items-center justify-center gap-20'}`}>
 
                 {atividades.map((atividade) => (

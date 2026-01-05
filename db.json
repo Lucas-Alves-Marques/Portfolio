@@ -24,8 +24,8 @@
             "date": "22/12/2025",
             "description": "Como projeto de conclusão de semestre em minhas aulas de Programação Web, meu professor atribuiu uma atividade em que devíamos fazer um pequeno CRUD utilizando a biblioteca de JavaScript React. Para isso, decidi criar uma aplicação que faz um sorteio, tanto de uma única seleção quanto por combinação, pois percebi que, durante o meu período de TCC, eu e meu grupo utilizávamos muito aplicações com essa finalidade para decidirmos a ordem de apresentação, pois gostávamos de apresentar coisas diferentes em cada apresentação, para que todos estudassem e soubessem de tudo do projeto.",
             "repository": "https://github.com/Lucas-Alves-Marques/Smart_Pick_Projeto_Completo",
-            "urlImg": "/img/Smart Pick/Capa_Projeto.jpg",
-            "urlVideo": "/img/Smart Pick/Video_Projeto.mp4"
+            "urlImg": "/img/Smart_Pick/Capa_Projeto.jpg",
+            "urlVideo": "/img/Smart_Pick/Video_Projeto.mp4"
         }
     ],
     "atividades": [
