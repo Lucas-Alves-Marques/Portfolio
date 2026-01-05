@@ -48,7 +48,7 @@ Certifique-se de ter o **Node.js** instalado em sua máquina.
 Este projeto utiliza o `concurrently` para rodar o Frontend (Next.js) e o Backend (JSON Server) simultaneamente com um único comando:
 
 ```bash
-npm run dev:all
+npm run full
 ```
 
 Isso iniciará:
@@ -73,3 +73,4 @@ Caso prefira rodar separadamente:
 Sinta-se à vontade para entrar em contato comigo para oportunidades ou networking!
 
 ---
+
