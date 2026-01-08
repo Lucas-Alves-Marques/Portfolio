@@ -1,5 +1,6 @@
+'use client';
 import Image from "next/image";
-import ProfileImg from '../img/MinhaFoto.jpeg';
+import ProfileImg from './../../public/img/MinhaFoto.jpeg';
 import { FaNodeJs as Node } from "react-icons/fa";
 import { PiFileSql as SQL } from "react-icons/pi";
 import { SiNextdotjs as NextJS } from "react-icons/si";

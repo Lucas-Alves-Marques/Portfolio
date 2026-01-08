@@ -1,6 +1,6 @@
 'use client';
 import Image from "next/image";
-import ProfileImg from '../../../img/MinhaFoto.jpeg';
+import ProfileImg from './../../../../public/img/MinhaFoto.jpeg';
 import { usePathname, useRouter } from "next/navigation";
 
 export default function Header() {

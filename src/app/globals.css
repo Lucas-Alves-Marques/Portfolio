@@ -2,7 +2,7 @@
 
 :root {
   background-color: black;
-  background-image: url('../img/backgrondImage.jpeg');
+  background-image: url('./../../public/img/backgrondImage.jpeg');
   background-position: fixed;
   background-size: auto;
 }
