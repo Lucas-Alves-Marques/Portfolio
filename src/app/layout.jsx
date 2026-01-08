@@ -23,18 +23,17 @@ export default function RootLayout({ children }) {
 
     <html lang="pt-br">
 
-      <body className={`${playfair.variable} antialiased flex flex-col justify-between h-screen`}>
+      <body className={`${playfair.className} antialiased min-h-screen flex flex-col bg-[#0f0f0f]`}>
 
         <Header />
-        <div className="flex flex-col h-full w-full">
 
-          <div className="flex m-auto p-8">
+        <main className="flex-grow flex items-center justify-center py-4 md:py-8">
+          <div className="w-full h-full max-w-full">
             {children}
           </div>
+        </main>
 
-          <Footer />
-
-        </div>
+        <Footer />
 
       </body>
 

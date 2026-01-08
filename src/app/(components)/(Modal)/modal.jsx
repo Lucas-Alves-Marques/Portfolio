@@ -19,48 +19,50 @@ export default function Modal({ project, setOpen }) {
 
     return (
 
-        <div className={`fixed top-0 left-0 w-full h-full bg-black/70 backdrop-blur-sm z-50 flex 
+        <div className={`fixed top-0 left-0 w-full h-full bg-black/70 backdrop-blur-sm z-50 flex overflow-y-auto p-4 md:p-8 
              entradaModal ${transition && 'opacity-0 ease-in-out duration-800'}`}>
 
-            <div className="flex bg-[#303030a8] rounded-2xl text-white 
-                items-start justify-center p-8 m-auto w-[90rem]">
+            <div className="flex flex-col lg:flex-row bg-[#1e1e1e] rounded-2xl text-white 
+                items-center lg:items-start justify-center p-4 md:p-8 m-auto w-full max-w-6xl shadow-2xl relative">
 
-                <video
-                    width={800}
-                    height={800}
-                    controls
-                    poster={project.urlImg}
-                    className="rounded-2xl border-2 border-white"
-                >
-                    <source src={project.urlVideo} type="video/mp4" />
+                <div className="w-full lg:w-2/3">
+                    <video
+                        width="100%"
+                        height="auto"
+                        controls
+                        poster={project.urlImg}
+                        className="rounded-2xl border-2 border-white/20 shadow-lg"
+                    >
+                        <source src={project.urlVideo} type="video/mp4" />
+                    </video>
+                </div>
 
-                </video>
-                <div className="p-8 h-[25rem] flex flex-col justify-between">
+                <div className="p-4 md:p-8 w-full lg:w-1/3 flex flex-col justify-between">
 
                     <div className="entrada flex flex-col">
 
-                        <h1 className="uppercase font-bold text-[1.2rem]">{project.title}</h1>
-                        <p>({project.date})</p>
+                        <h1 className="uppercase font-bold text-xl md:text-[1.2rem]">{project.title}</h1>
+                        <p className="text-gray-400">({project.date})</p>
                         <div className="mt-4">
 
-                            <p className="text-justify">{project.description}</p>
+                            <p className="text-justify text-sm md:text-base leading-relaxed">{project.description}</p>
 
                         </div>
 
                     </div>
-                    <div className="mt-4 flex justify-around">
+                    <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:justify-around">
 
                         <button
-                            className="mt-4 px-8 py-2 uppercase font-bold bg-black/50 
-                                rounded-2xl hover:bg-black/70 transition-all cursor-pointer"
+                            className="flex-1 px-8 py-3 uppercase font-bold bg-white/10 
+                                border border-white/20 rounded-2xl hover:bg-white/20 transition-all cursor-pointer text-sm"
                             onClick={() => window.open(project.repository)}>
 
                             Repositório
 
                         </button>
                         <button
-                            className="mt-4 px-8 py-2 uppercase font-bold bg-black/50 
-                                rounded-2xl hover:bg-black/70 transition-all cursor-pointer"
+                            className="flex-1 px-8 py-3 uppercase font-bold bg-red-500/20 
+                                border border-red-500/30 text-red-200 rounded-2xl hover:bg-red-500/30 transition-all cursor-pointer text-sm"
                             onClick={() => CloseModal()}>
 
                             Fechar
