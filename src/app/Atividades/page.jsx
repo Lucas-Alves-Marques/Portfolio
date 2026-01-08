@@ -8,7 +8,7 @@ export default function Atividades() {
 
     useEffect(() => {
 
-        fetch('http://localhost:5000/atividades', {
+        fetch('./db.json', {
 
             method: 'GET',
             headers: {
@@ -19,7 +19,7 @@ export default function Atividades() {
 
         })
             .then(resp => resp.json())
-            .then(data => setAtividades(data))
+            .then(data => setAtividades(data.atividades))
             .catch(err => console.log(err))
 
     }, [])

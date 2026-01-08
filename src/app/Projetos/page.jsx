@@ -1,14 +1,14 @@
 'use client'
 import Card from "../(components)/(Cards)/Card";
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
 export default function Projetos() {
 
-    const [projects, setProjetcs] = useState([]);
+    const [projects, setProjects] = useState([]);
 
     useEffect(() => {
 
-        fetch('http://localhost:5000/projetos', {
+        fetch("./db.json", {
 
             method: 'GET',
             headers: {
@@ -19,7 +19,7 @@ export default function Projetos() {
 
         })
             .then(resp => resp.json())
-            .then(data => setProjetcs(data))
+            .then(data => setProjects(data.projetos))
             .catch(err => console.log(err))
 
     }, [])
